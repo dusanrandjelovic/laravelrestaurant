@@ -1,0 +1,139 @@
+#prvideorez {
+  margin: 8% 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prvideosectionrez {
+  padding: 0 12%;
+}
+.prvideosectionrez img {
+  display: block;
+  margin: 0 auto;
+}
+.prvideosectionrez h2 {
+  color: #DB9423;
+  margin-bottom: 3%;
+}
+.prvideosectionrez h3 {
+  color: #DB9423;
+}
+/*.prvideosection h4 {
+  padding: 0 22%;
+}*/
+.prvideosectionrez p {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+#drugideorez {
+  margin: 0 8%;
+}
+.form-group {
+    display: flex;
+}
+#formarez {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  padding: 8%;
+  border-radius: 10px;
+}
+
+#inputrez, #textarearez, #buttonrez {
+  padding: 14px;
+  font-size: 1.1em;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.03em;
+  color: #DB9423;
+}
+#inputrez {
+    width: 49%;
+    margin: 6px 0;
+}
+#textarearez {
+  width: 99%;
+  margin: 6px 0;
+}
+#buttonrez {
+  margin: 6px auto;
+  display: block;
+  width: 120px;
+  border: 1px solid rgba(0,0,0,0.88);
+  background-color: white;
+}
+#buttonrez:hover {
+  background-color: #DB9423;
+  color: white;
+  cursor: pointer;
+}
+
+#trecideokontakt {
+  margin: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#trecideokontakt h2, .boja {
+  color: #DB9423;
+}
+.trecideored {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.trecideoredmob {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    #inputrez {
+      width: 48%;
+    }
+    #textarearez {
+      width: 98%;
+    }
+}
+
+
+@media screen and (max-width: 885px) {
+  #prvideorez {
+    margin: 16% 8% 8%;
+  }
+  .prvideosectionrez {
+    padding: 0 0;
+  }
+
+}
+
+@media screen and (max-width: 685px) {
+  #prvideorez {
+    margin: 24% 8% 8%;
+  }
+  #inputrez {
+    width: 99%;
+  }
+  #textarearez {
+    width: 99%;
+  }
+  .trecideored {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #prvideorez {
+    margin: 30% 8% 8%;
+  }
+  .trecideored {
+    display: none;
+  }
+  .trecideoredmob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

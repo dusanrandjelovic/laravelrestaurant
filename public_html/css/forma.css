@@ -1,0 +1,32 @@
+#formakon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #inputkon, #textareakon {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em;
+    color: #DB9423;
+  }
+
+   /* comment forma */
+ .comment-form {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+ }
+ .comment-margin {
+ margin: 15px 0;
+ }
+
+  @media (max-width: 650px){
+    #formakon {
+    width: 90%;
+    }
+    #textareakon {
+       width: 99%;
+    }
+  }

@@ -1,0 +1,589 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    background-color: whitesmoke;
+    /*font-family: 'Abril Fatface', cursive;*/
+    /*font-family: 'Poppins', sans-serif;*/
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 4.8em;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+  }
+  h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  a {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em;
+      text-decoration: none;
+      color: black;
+  }
+  a:hover {
+      color: #DB9423;
+      text-decoration: none;
+  }
+  /*
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+  }
+  header .logodiv{
+    width: 30%;
+    padding-left: 8%;
+  }
+  header nav {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8%;
+  }
+  .active {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    transition: 0.4s;
+  }
+  .inactive {
+    transition: 0.5s;
+  }
+  */
+  
+  /*navigacija sa hamburgerom*/
+  
+  /*
+  .topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+    display: inline-block;
+    color: #1D1D23;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .topnav a:hover {
+    color: #DB9423;
+  }
+  
+  #rezervisanje {
+    border: 1px solid white;
+    background-color: #DB9423;
+    color: white;
+    border-radius: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+  transition: 0.5s;
+  }
+  #rezervisanje:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .topnav .icon {
+    display: none;
+    font-size: 1.5em;
+  }
+  */
+  
+  main {
+    position: relative;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../img/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    top: 46px;
+  }
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 5% 14%;
+  }
+  .mainsection p {
+    text-align: center;
+    padding: 0 20%;
+      color: white;
+      margin: 30px 0;
+  }
+  .mainsection h1 {
+    margin-top: -5px;
+    margin-bottom: 2px;
+      color: white;
+  }
+  .mainsection h4 {
+    color: #DB9423;
+  }
+  .prvi {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+  }
+  
+  .drugi {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vw;
+  }
+  
+  #prvideo {
+    margin: 8% 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prvideosection {
+    padding: 0 12%;
+  }
+  .prvideosection img {
+    display: block;
+    margin: 0 auto;
+  }
+  .prvideosection h2 {
+    color: #DB9423;
+    margin-bottom: 3%;
+  }
+  .prvideosection h4 {
+    padding: 0 22%;
+  }
+  .prvideosection p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #drugideo {
+    margin: 8% 20%;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0;
+    box-shadow: 2px 2px 2px 2px;
+  }
+  .item {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .item img {
+    width: 100%;
+  }
+  
+  #trecideo {
+    margin: 8%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+  }
+  #trecideo div {
+    width: 45%;
+  }
+  .trecideosection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .trecideosection h2, .hl {
+    color: #DB9423;
+  }
+  .trecideosection p {
+    text-align: left;
+  }
+  .hl {
+    margin: 1px 0;
+  }
+  .trecideosection a, .petideolevo a {
+    color: #DB9423;
+    background-color: white;
+    border: 1px solid #DB9423;
+    border-radius: 15px;
+    padding: 2% 3%;
+    transition: 0.5s;
+  }
+  .trecideosection a:hover, .petideolevo a:hover {
+    color: white;
+    background-color: #DB9423;
+    border: 1px solid white;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  /*#trecideo img {
+    border-radius: 3%;
+  }*/
+  .trecideoslika {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../img/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+  }
+  .trecideoslika p {
+   color: white;
+  }
+  
+  #cetvrtideo {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../img/pozadina.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+  }
+  .cetvrtideosection {
+    display: flex;
+    justify-content: space-between;
+    padding: 15% 8%;
+    color: white;
+  }
+  .cetvrtideosection h2, .cetvrtideosection p {
+    text-align: left;
+  }
+  .cetvrtideosection h2 {
+    margin-bottom: 5%;
+  }
+  .cetvrtideosection div {
+    width: 45%;
+  }
+  
+  #petideo {
+    margin: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .petideolevo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .petideolevo div {
+    padding-bottom: 4%;
+  }
+  .hl2 {
+      color: #DB9423;
+  }
+  .petideolevo h2, .petideolevo h3, .petideolevo h4, .petideolevo p {
+    text-align: left;
+  }
+  .razmakpetideo {
+    margin: 8% 0;
+  }
+  .petideolevo h4 {
+    color: #DB9423;
+    margin: 8% 0;
+  }
+  .marginadole {
+    margin-bottom: 10%;
+  }
+  .petideodesno {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .kuvar {
+    width: 38%;
+    margin: 2% 0;
+  }
+  .mrezekuvari {
+    display: flex;
+    justify-content: center;
+  }
+  .mrezekuvari a {
+    color: #DB9423;
+    padding: 7.5px;
+    background-color: rgba(219, 148, 35, 0.24);
+    border-radius: 50%;
+    margin: 0 1.6%;
+    text-align: center;
+  }
+  .mrezekuvari a:hover {
+    color: whitesmoke;
+    background-color: #DB9423;
+  }
+  
+  #sestideo {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  #sestideo h2 {
+    margin-bottom: 2%;
+  }
+  #sestideo a {
+    color: #DB9423;
+    margin: 0 1.7%;
+  }
+  #sestideo a:hover {
+    color: black;
+  }
+  
+  footer {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  .footersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6% 8% 1%;
+  }
+  .footersection h2 {
+    color: white;
+    font-size: 4.8em;
+    padding: 25px 0;
+  }
+  .footersection p {
+    text-align: center;
+    padding: 0 15%;
+    color: white;
+    margin: 30px 0;
+  }
+  .footerdugme {
+    color: #DB9423;
+    background-color: inherit;
+    border: 1px solid #DB9423;
+    border-radius: 15px;
+    padding: 1% 2%;
+    transition: 0.5s;
+  }
+  .footerdugme:hover {
+    color: white;
+    background-color: #DB9423;
+    border: 1px solid inherit;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .mreze {
+    width: 225px;
+  }
+  .mreze a {
+    color: white;
+    border: 1px dashed white;
+    border-radius: 50%;
+    padding: 12px;
+    transition: 0.5s;
+    margin: 0 5px;
+  }
+  .mreze a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+  .dno {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8% 2%;
+  }
+  .dno p {
+    color: white;
+      font-size: 0.9em;
+  }
+  .dno a {
+    color: #DB9423;
+  }
+  .dno a:hover {
+    color: white;
+  }
+  .ostalestr{
+      margin: 0 3%;
+  }
+  .ostalestr a {
+    color: #636B6F;
+  }
+  .label {
+      background-color: #DB9423;
+  }
+  .form-group {
+      display: flex;
+      justify-content: center;
+  }
+  @media screen and (max-width: 1005px) {
+    #trecideo {
+      flex-direction: column;
+    }
+    #trecideo div {
+      width: 99%;
+      margin-bottom: 5%;
+    }
+    .trecideosection {
+      align-items: center;
+    }
+    .trecideosection p {
+      text-align: center;
+    }
+    .trecideoslika {
+      flex-direction: column;
+      width: 99%;
+      height: 36vh;
+    }
+  }
+  
+  @media screen and (max-width: 885px) {
+    header {
+      flex-direction: column;
+      justify-content: center;
+    }
+    header .logodiv {
+      padding-left: 0;
+    }
+    header nav {
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
+    }
+    .topnav a {
+      display: none;
+    }
+    .topnav a.icon {
+      display: block;
+    }
+    .topnav.responsive {
+      position: relative;
+      width: 100%;
+      background-color: white;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      display: block;
+      text-align: left;
+    }
+  
+    h1 {
+      font-size: 3.6em;
+    }
+    h2 {
+      font-size: 2.2em;
+    }
+    h3 {
+      font-size: 1.55em;
+    }
+    h4 {
+      font-size: 1.2em;
+    }
+  
+  main {
+    height: 75vh;
+  }
+  .mainsection {
+    padding: 21% 5% 14%;
+  }
+    .mainsection p {
+      display: none;
+    }
+  
+    #prvideo {
+      margin: 16% 8% 8%;
+    }
+    .prvideosection {
+      padding: 0 0;
+    }
+  
+  #drugideo {
+    margin: 8%;
+  }
+  
+  .cetvrtideosection {
+    flex-direction: column;
+  }
+  .cetvrtideosection h2, .cetvrtideosection p {
+    text-align: center;
+  }
+  .cetvrtideosection div {
+    width: 98%;
+  }
+  
+  #petideo {
+    flex-direction: column;
+  }
+  
+  .petideolevo h2, .petideolevo h3, .petideolevo h4, .petideolevo p {
+    text-align: center;
+  }
+  .petideolevo, .petideodesno {
+    width: 95%;
+  }
+  .petideodesno {
+    margin: 10% 0 6% 0;
+  }
+  
+  
+    .footersection h2 {
+      font-size: 3.5em;
+    }
+    .dno {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    #prvideo {
+      margin: 30% 8% 8%;
+    }
+    .petideodesno {
+      justify-content: center;
+    }
+    .kuvar {
+      width: 70%;
+    }
+  }
+  

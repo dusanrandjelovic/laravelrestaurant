@@ -1,0 +1,145 @@
+.dropdown-toggle {
+    color: black;
+}
+
+.text-info {
+    color: black!important;
+}
+
+.badge-danger {
+    color: white;
+    background-color: black;
+}
+
+.cartdropdown .cartdown {
+      padding:20px;
+    top:50px !important;
+    width:350px !important;
+    left:-110px !important;
+    box-shadow:0px 5px 30px black;
+    background-color: #DB9423;
+}
+#cartdugme {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+#cartdugme:hover {
+    cursor: pointer;
+}
+.total-header-section{
+    border-bottom:1px solid black;
+}
+.total-section p{
+    margin-bottom:20px;
+}
+.cart-detail{
+    padding:15px 0px;
+}
+.cart-detail-img img{
+    width:100%;
+    height:100%;
+    padding-left:15px;
+}
+.cart-detail-product p{
+    margin:0px;
+    color:#000;
+    font-weight:500;
+}
+.cart-detail .price{
+    font-size:12px;
+    margin-right:10px;
+    font-weight:500;
+}
+.cart-detail .count{
+    color:black;
+}
+.checkout{
+    border-top:1px solid black;
+    padding-top: 15px;
+}
+.checkout .btn-primary{
+    border-radius:50px;
+    padding: 15px 0;
+}
+
+/* dugme sa cart na naruci */
+.naruci {
+   margin: 70px 0;
+   display: flex;
+   justify-content: center;
+}
+.naruci a {
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px 14px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 230px;
+    transition: 0.5s;
+}
+.naruci a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption{
+    margin: 7px;
+}
+
+.page {
+    margin-top: 50px;
+}
+
+.btn-holder{
+    text-align: center;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+    table#cart tbody tr td:first-child { background: #333; color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+
+
+
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+
+}

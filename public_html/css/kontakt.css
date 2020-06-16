@@ -1,0 +1,152 @@
+#prvideokontakt {
+    margin: 8% 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prvideosectionkontakt {
+    padding: 0 12%;
+  }
+  .prvideosectionkontakt img {
+    display: block;
+    margin: 0 auto;
+  }
+  .prvideosectionkontakt h2 {
+    color: #DB9423;
+    margin-bottom: 3%;
+  }
+.prvideosectionkontakt h3 {
+  color: #DB9423;
+}
+/*.prvideosection h4 {
+  padding: 0 22%;
+}*/
+.prvideosectionkontakt p {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.prvideored {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12% 8%;
+}
+.vl {
+border-left: 1px solid #DB9423;
+height: 110px;
+margin-left: 69%;
+}
+
+#drugideokontakt {
+  margin: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+#drugideokontakt div {
+  width: 45%;
+}
+#formakon {
+  display: flex;
+  flex-direction: column;
+}
+#inputkon, #textareakon {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1.1em;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.03em;
+  color: #DB9423;
+}
+.klik {
+  margin: 5px auto;
+  display: block;
+  width: 120px;
+  border: 1px solid #DB9423;
+  background-color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.03em;
+  color: #DB9423;
+}
+.klik:hover {
+  background-color: #DB9423;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+iframe {
+  border:0;
+  width: 100%;
+   height: 100%;
+}
+
+#trecideokontakt {
+  margin: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#trecideokontakt h2, .boja {
+  color: #DB9423;
+}
+.trecideored {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.trecideoredmob {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 885px) {
+
+  .prvideosectionkontakt {
+    padding: 0 0;
+  }
+
+  #drugideokontakt {
+    margin: 8%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #drugideokontakt div {
+    width: 99%;
+    margin: 1.6% 0;
+  }
+  iframe {
+    height: 44vh;
+  }
+
+}
+
+@media screen and (max-width: 685px) {
+  #prvideokontakt {
+    margin: 24% 8% 8%;
+  }
+  .prvideored {
+    flex-direction: column;
+    align-items: center;
+  }
+  #inputkon, #textareakon, .klik {
+    font-size: 1em;
+  }
+  .trecideored {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #prvideokontakt {
+    margin: 30% 8% 8%;
+  }
+  .trecideored {
+    display: none;
+  }
+  .trecideoredmob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

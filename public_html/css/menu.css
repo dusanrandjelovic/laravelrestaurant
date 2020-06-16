@@ -1,0 +1,139 @@
+ 
+ #drugideomenu {
+    margin: 8%;
+  }
+  .drugideosection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .drugideosection div {
+    width: 28%;
+  }
+  .drugideosection h3, .drugideosection p {
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+  }
+  .drugideosection p {
+    border-top: 1px solid red;
+    width: 50px;
+    margin-top: 15px;
+    padding-top: 10px;
+  }
+  .slika1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/pozadina.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .slika2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/pozadina.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .slika3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/pozadina.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  #trecideomenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8%;
+  }
+  .meniajtem {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .meniajtem h3, .meniajtem p {
+    text-align: left;
+  }
+  .cena {
+    color: #DB9423;
+  }
+  
+  #cetvrtideomenu {
+  margin: 8%;
+  display: flex;
+  justify-content: space-between;
+  }
+  .cetvrtideosectionmenu {
+    width: 45%;
+  }
+  .cetvrtideoajtem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
+  .cetvrtideosectionmenu h2, .cetvrtideoajtem h4, .cetvrtideoajtem p {
+    text-align: left;
+  }
+  
+  
+  
+  @media screen and (max-width: 1180px) {
+    .meniajtem {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .meniajtem h3, .meniajtem p {
+      text-align: center;
+    }
+  }
+
+  
+  @media screen and (max-width: 885px) {
+  .drugideosection {
+    flex-direction: column;
+  }
+  .drugideosection div {
+    width: 99%;
+    margin-top: 10%;
+  }
+  .slika1, .slika2, .slika3 {
+    height: 25vh;
+  }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    #trecideomenu {
+      justify-content: center;
+    }
+    .meniajtem {
+      width: 75%;
+    }
+  
+    #cetvrtideomenu {
+      flex-direction: column;
+      align-items: center;
+    }
+    .cetvrtideosectionmenu {
+      width: 98%;
+      margin: 6% 0;
+    }
+    .cetvrtideoajtem {
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 9%;
+    }
+    .cetvrtideosectionmenu h2, .cetvrtideoajtem h4, .cetvrtideoajtem p {
+      text-align: center;
+    }
+  }
+  
+  

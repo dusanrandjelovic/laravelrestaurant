@@ -1,0 +1,47 @@
+.shopomotac {
+    display: flex;
+    margin: 30px 0;
+}
+.shopsidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.pozboja {
+     border-right: 1px solid #2b333e;
+}
+.filter div {
+    margin: 30px 0;
+}
+.filter a:hover {
+    color: #DB9423;
+    text-decoration: none;
+}
+.shopmain {
+    width: 80%;
+}
+
+@media(max-width: 850px){
+    .shopomotac{
+        flex-direction: column;
+    }
+    .shopmain{
+        width: 100%;
+    }
+    .shopsidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .filter div {
+      margin: 10px 0;
+}
+}
+
+@media(max-width: 570px){
+    .shopsidebar {
+        flex-wrap: wrap;
+    }
+}

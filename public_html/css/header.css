@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    background-color: whitesmoke;
+    /*font-family: 'Abril Fatface', cursive;*/
+    /*font-family: 'Poppins', sans-serif;*/
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.8em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.4em;
+    letter-spacing: 0.04em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  a {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em;
+      text-decoration: none;
+  }
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+  }
+  header .logodiv{
+    width: 30%;
+    padding-left: 8%;
+  }
+  header nav {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8%;
+  }
+  .active {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    transition: 0.4s;
+  }
+  .inactive {
+    transition: 0.5s;
+  }
+  
+  /*navigacija sa hamburgerom*/
+  .topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+    display: inline-block;
+    color: #1D1D23;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .topnav a:hover {
+    color: #DB9423;
+  }
+  #rezervisanje {
+    border: 1px solid white;
+    background-color: #DB9423;
+    color: white;
+    border-radius: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+  transition: 0.5s;
+  }
+  #rezervisanje:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .topnav .icon {
+    display: none;
+    font-size: 1.5em;
+  }
+  
+
+  @media screen and (max-width: 885px) {
+    header {
+      flex-direction: column;
+      justify-content: center;
+    }
+    header .logodiv {
+      padding-left: 0;
+    }
+    header nav {
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
+    }
+    .topnav a {
+      display: none;
+    }
+    .topnav a.icon {
+      display: block;
+    }
+    .topnav.responsive {
+      position: relative;
+      width: 100%;
+      background-color: white;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      display: block;
+      text-align: left;
+    }
+  
+    h1 {
+      font-size: 3.6em;
+    }
+    h2 {
+      font-size: 2.2em;
+    }
+    h3 {
+      font-size: 1.55em;
+    }
+    h4 {
+      font-size: 1.2em;
+    }
+ 
+  }
+  

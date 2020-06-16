@@ -1,0 +1,349 @@
+
+/*
+  h1, h2, h3, h4 {
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.8em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.4em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  a {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em;
+      text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  */
+ 
+  
+  #mainhome {
+    height: 100vh;
+  }
+  .mainsection h3 {
+    color: #DB9423;
+  }
+  .dugmici {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+  
+  .bojapozadina {
+    background-color: white;
+    color: black;
+    border: 1px ridge inherit;
+    border-radius: 15px;
+    padding: 2% 3%;
+    transition: 0.5s;
+  }
+  .bojapozadina:hover {
+    color: white;
+    background-color: #DB9423;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .inheritpozadina {
+    background-color: inherit;
+    color: white;
+    border: 1px ridge white;
+    border-radius: 15px;
+    padding: 2% 3%;
+    transition: 0.5s;
+  }
+  .inheritpozadina:hover {
+    background-color: #DB9423;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  
+  #prvideohome, #drugideohome, #cetvrtideohome {
+    margin: 8%;
+    display: flex;
+  }
+  #prvideohome {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .prvideoslikelaptop {
+    width: 28%;
+  }
+  .slikeomotac {
+    display: none;
+  }
+  .prvideosectionhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+  }
+  .prvideosectionhome h2 {
+    color: #DB9423;
+  }
+  .prvideosectionhome p {
+    text-align: center;
+    padding: 0 5%;
+  }
+  .prvideosectionhome a {
+    color: #DB9423;
+    background-color: white;
+    border: 1px solid #DB9423;
+    border-radius: 15px;
+    padding: 2% 3%;
+    transition: 0.5s;
+  }
+  .prvideosectionhome a:hover {
+    color: white;
+    background-color: #DB9423;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .rostilj {
+    height: 70px;
+    width: 70px;
+  }
+  
+  #drugideohome {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .drugideoslike {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .drugideoslike img {
+    width: 23%;
+  }
+  
+  #trecideohome {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../img/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .trecideosectionhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 7%;
+  }
+  .trecideosectionhome h2 {
+    color: #DB9423;
+  }
+  .trecideosectionhome h4, .trecideosectionhome p {
+    color: white;
+  }
+ 
+  
+  #cetvrtideohome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  #petideohome {
+    position: relative;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../img/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+      padding: 8% 0 12%;
+  }
+  .petideosectionhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .petideosectionhome img {
+    height: 70px;
+    width: 70px;
+  }
+  .petideosectionhome h2 {
+    color: #DB9423;
+    margin: 5px 0;
+  }
+  .petideosectionhome h4, .petideosectionhome p {
+    color: white;
+  }
+  .petideosectionhome p {
+    margin-bottom: 35px;
+  }
+  .petideosectionhome a {
+    color: white;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1% 2%;
+    transition: 0.5s;
+  }
+  .petideosectionhome a:hover {
+    color: inherit;
+    background-color: white;
+    border: 1px solid inherit;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  #sestideohome {
+    margin: 4% 8% 8%;
+  }
+  .sestideosectionhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10% 3%;
+  }
+  .sestideosectionhome p {
+    text-align: center;
+    padding: 0 10%;
+  }
+  .klijenti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .klijenti div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .klijenti p {
+    text-align: center;
+    color: #1D1D23;
+  }
+  .imeklijenta {
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  
+  @media screen and (max-width: 1180px) {
+    #prvideohome {
+      flex-direction: column;
+    }
+    .prvideosectionhome {
+      width: 80%;
+      margin-top: 100px;
+    }
+    .prvideoslikelaptop {
+      display: none;
+    }
+  
+    .slikeomotac {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .prvideoslike {
+      width: 38%;
+    }
+    #drugideohome {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
+  
+  @media screen and (max-width: 885px) {
+    
+  
+    .mainsection {
+      padding-top: 14%;
+    }
+    .mainsection p {
+      display: none;
+    }
+    .mainsection h1 {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+  
+  .klijenti {
+    justify-content: space-around;
+  }
+    .klijenti div {
+      width: 40%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .drugideoslike {
+      justify-content: space-around;
+    }
+    .drugideoslike img {
+      width: 34%;
+    }
+  
+    #cetvrtideohome {
+      flex-direction: column;
+    }
+   
+  }
+  
+  @media screen and (max-width: 450px) {
+    .mainsection h1 {
+      text-align: center;
+    }
+    .dugmici {
+      flex-direction: column;
+      align-items: center;
+    }
+    .dugmici a {
+      margin: 5px 0;
+    }
+  
+    .drugideoslike {
+      justify-content: center;
+    }
+    .drugideoslike img {
+      width: 51%;
+    }
+  
+    .sestideosectionhome {
+      padding: 0 4% 3%;
+    }
+    .sestideosectionhome h2 {
+      text-align: center;
+    }
+    .klijenti {
+      justify-content: center;
+    }
+    .klijenti div {
+      width: 70%;
+    }
+  }
+  
